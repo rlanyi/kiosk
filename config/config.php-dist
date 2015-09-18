@@ -1,0 +1,6 @@
+<?php
+
+	$config = array(
+		'datadir' => '/mnt/samba/',
+		'title' => 'Screen1',
+	);

@@ -1,0 +1,52 @@
+{
+  "playlist12345678": {
+    "id": "12345678",
+    "name": "Playlist1",
+    "starttime": 1363969322,
+    "endtime": 1363970322,
+    "priority": 5,
+    "enabled": true,
+
+    "screens": {
+      "0": {
+        "duration": 5000,
+        "assets": {
+          "0": {
+            "type": "image",
+            "dimensions": "auto",
+            "filename": "image.jpg"
+          },
+          "1": {
+            "type": "video",
+            "filename": "movie.mp4"
+          }
+        }
+      }
+    }
+  },
+  "playlist12345679": {
+    "id": "12345679",
+    "name": "Playlist1",
+    "starttime": 1363969322,
+    "endtime": 1363970322,
+    "priority": 6,
+    "enabled": true,
+
+    "screens": {
+      "0": {
+        "duration": 5000,
+        "assets": {
+          "0": {
+            "type": "image",
+            "dimensions": "auto",
+            "filename": "image.jpg"
+          },
+          "1": {
+            "type": "video",
+            "filename": "movie.mp4"
+          }
+        }
+      }
+    }
+  }
+}

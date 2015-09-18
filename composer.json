@@ -1,0 +1,33 @@
+{
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name"    : "twitter/bootstrap",
+                "version" : "2.1",
+                "source"  : {
+                    "url"       : "https://github.com/failpunk/bootstrap.git",
+                    "type"      : "git",
+                    "reference" : "master"
+                }
+            }
+        }
+    ],
+    "require": {
+        "silex/silex": "1.0.*@dev",
+        "twig/twig": "1.*",
+        "twitter/bootstrap": "2.3.1",
+        "symfony/form": "~2.1.4",
+        "symfony/validator": "~2.1",
+        "symfony/config": "~2.1",
+        "symfony/translation": "~2.1",
+        "symfony/locale": "~2.1",
+        "symfony/twig-bridge": "~2.1"
+    },
+    "autoload": {
+        "psr-0": {
+          "Kiosk": "src/",
+          "System_Daemon": "vendor/daemon/"
+        }
+    }
+}

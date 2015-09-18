@@ -1,0 +1,19 @@
+{% extends "main.twig" %}
+
+{% form_theme form _self %}
+{% block choice_label %}
+  Lejátszási listák
+{% endblock choice_label %}
+
+{% block content %}
+      <h2>Lejátszási lista váltása</h2>
+      <p>Válaszd ki, hogy melyik listát szeretnéd indítani, add meg a biztonsági kódot, majd kattints a Mehet gombra. Az éppen futó lista lejátszása megszakad. A Megállít gomb azonnal leállítja a lejátszást.</p>
+
+<form action="/playlist" method="post" name="playlistform" novalidate="novalidate">
+    {{ form_widget(form) }}
+    {{ form_errors(form) }}
+    <button type="submit" name="play" value="play" class="btn btn-primary">Mehet</button>
+    <button type="submit" name="stop" value="stop" class="btn btn-danger">Megállít</button>
+</form>
+
+{% endblock %}
