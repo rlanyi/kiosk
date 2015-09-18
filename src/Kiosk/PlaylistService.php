@@ -119,6 +119,9 @@ class PlaylistService {
 
   static public function isWritable() {
 
+    if (!file_exists(__DIR__ . '/../../' . self::$store)) {
+      touch(__DIR__ . '/../../' . self::$store);
+    }
     return is_writable(__DIR__ . '/../../' . self::$store);
 
   }
