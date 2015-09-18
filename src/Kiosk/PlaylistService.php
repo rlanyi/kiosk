@@ -120,7 +120,7 @@ class PlaylistService {
   static public function isWritable() {
 
     if (!file_exists(__DIR__ . '/../../' . self::$store)) {
-      touch(__DIR__ . '/../../' . self::$store);
+      file_put_contents(__DIR__ . '/../../' . self::$store, json_encode(array()));
     }
     return is_writable(__DIR__ . '/../../' . self::$store);
 
