@@ -27,7 +27,7 @@
     "autoload": {
         "psr-0": {
           "Kiosk": "src/",
-          "System_Daemon": "vendor/daemon/"
+          "System_Daemon": "src/"
         }
     }
 }
