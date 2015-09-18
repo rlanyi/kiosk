@@ -1,3 +1,4 @@
+*.pid
 composer.phar
 composer.lock
 config/config.php
