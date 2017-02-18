@@ -262,7 +262,7 @@ class PlaylistService {
 					}
 				}
 
-				if (is_array($screen))
+				if ((is_array($screen)) && ($screen['duration'] > 0))
 				{
 					// The playlist key is a hash from the directory which contains the file, so everything in the same directory will
 					// belong to the same playlist 
