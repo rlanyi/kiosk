@@ -14,6 +14,7 @@
         }
     ],
     "require": {
+        "char0n/ffmpeg-php": "dev-master",
         "silex/silex": "1.0.*@dev",
         "twig/twig": "1.*",
         "twitter/bootstrap": "2.3.1",
