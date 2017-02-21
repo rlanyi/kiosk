@@ -62,5 +62,13 @@
     <script src="/js/bootstrap/bootstrap-typeahead.js"></script>
     <script src="/js/global.js"></script>
 
+    <script>
+      $(function() {
+        $('.btn').on('click', function () {
+          var $btn = $(this).button('loading');
+        });
+      });
+    </script>
+
   </body>
 </html>
