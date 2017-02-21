@@ -65,6 +65,7 @@
     <script>
       $(function() {
         $('.btn').on('click', function () {
+          $('.btn').not(this).prop('disabled', true);
           var $btn = $(this).button('loading');
         });
       });
