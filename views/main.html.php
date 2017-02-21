@@ -10,6 +10,7 @@
     <link href="/css/main.css" rel="stylesheet">
     <link href="/css/bootstrap/bootstrap.css" rel="stylesheet">
     <link href="/css/bootstrap/bootstrap-responsive.css" rel="stylesheet">
+    <link href="/css/font-awesome.min.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -65,8 +66,8 @@
     <script>
       $(function() {
         $('.btn').on('click', function () {
+          $(this).addClass('active');
           $('.btn').not(this).prop('disabled', true);
-          var $btn = $(this).button('loading');
         });
       });
     </script>
