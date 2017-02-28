@@ -1,6 +1,6 @@
   <h2>Lejátszási lista váltása</h2>
   <p>Válaszd ki, hogy melyik listát szeretnéd indítani, majd kattints a <strong>Lejátszás</strong> gombra. Az éppen futó lista lejátszása megszakad. 
-     A <strong>Megállít</strong> gomb azonnal leállítja a lejátszást. Az <strong>Újratöltése</strong> gomb megállítja a lejátszást és újratölti a lejátszási listákat.</p>
+     A <strong>Megállít</strong> gomb azonnal leállítja a lejátszást. Az <strong>Újratöltés</strong> gomb megállítja a lejátszást és újratölti a lejátszási listákat.</p>
 
   <form method="post" name="playlistform" novalidate="novalidate">
 
