@@ -4,9 +4,20 @@
 
   <form method="post" name="playlistform" novalidate="novalidate">
 
-    <button type="submit" name="play" value="play" data-loading-text="Lejátszás..." class="btn btn-primary has-spinner"><span class="spinner"><i class="fa-spin icon-refresh"></i></span>Lejátszás</button>
-    <button type="submit" name="stop" value="stop" data-loading-text="Megállít..." class="btn btn-danger has-spinner"><span class="spinner"><i class="fa-spin icon-refresh"></i></span>Megállít</button>
-    <button type="submit" name="refresh" value="stop" class="btn btn-success has-spinner"><span class="spinner"><i class="fa-spin icon-refresh"></i></span>Újratöltés</button>
+    <button type="submit" name="play" value="play" class="btn btn-primary" 
+      data-loading-text="<span class='fa fa-spin icon-refresh'></span> Lejátszás...">
+      Lejátszás
+    </button>
+
+    <button type="submit" name="stop" value="stop" class="btn btn-danger" 
+      data-loading-text="<span class='fa fa-spin icon-refresh'></span> Megállítás...">
+      Megállítás
+    </button>
+
+    <button type="submit" name="refresh" value="refresh" class="btn btn-success" 
+      data-loading-text="<span class='fa fa-spin icon-refresh'></span> Újratöltés...">
+      Újratöltés
+    </button>
 
     <div class="control-group">
       <h3>Lejátszási listák</h3>
