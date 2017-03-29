@@ -87,7 +87,7 @@ class Daemon {
             continue;
           }
 
-					$command = sprintf($command, round($screen['duration'] / 1000) + 3, escapeshellarg($filename));
+					$command = sprintf($command, round($screen['duration'] / 1000), escapeshellarg($filename));
 					System_Daemon::notice($command);
           $pid = intval(shell_exec($command));
         break;
